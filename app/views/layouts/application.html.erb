@@ -27,7 +27,8 @@
       <div class="col-5 links">
         <ul style="list-style: none;">
           <li><%= link_to 'Add a Quote', new_quote_path %></li>
-          <li><%= link_to 'About', '#' %></li>
+          <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+          <li><%= link_to 'Sign In', new_user_session_path %></li>
         </ul>
       </div>
     </header>
@@ -42,6 +43,14 @@
         <%= flash[:error].html_safe %>
       </div>
     <% end %>
+    
+    <% if notice.present? %>
+      <p class="alert alert-info"><%= notice %></p>
+    <% end %>
+    <% if alert.present? %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
+    
     <%= yield %>
   </div>
     
