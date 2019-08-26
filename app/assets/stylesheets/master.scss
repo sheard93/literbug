@@ -1,1 +1,59 @@
 @import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+.circle {
+  font-weight: bold;
+  position: relative;
+  border-radius: 100%;
+  background: #9ce6e2;
+  border: 1px solid #F7F7F7;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+
+.slogan {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-style: italic;
+  padding-top: 26px;
+  font-size: 40px;
+  text-align: center;
+  color: #9ce6e2;
+}
+
+header {
+  border-top: 9px solid #92e0b9;
+}
+
+hr {
+  clear:both;
+}
+
+h1 {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  font-style: italic;
+}
+
+h2 {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
