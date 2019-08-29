@@ -33,6 +33,9 @@
 
 .links {
   text-align: right;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-size: 20px;
+  padding-top: 38px;
 }
 
 .logo:hover {
@@ -65,8 +68,3 @@ h2 {
 
 }
 
-body {
-  background-image: url("books.jpeg");
-  background-repeat: no-repeat;
-  background-size: 90%;
-}

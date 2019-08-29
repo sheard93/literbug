@@ -1,0 +1,10 @@
+<h1>All Quotes</h1>
+<br />
+<br />
+
+<h2><% @quote.each do |quote| %>
+  <div>
+    <h1><%= quote.saying %></h1>
+    <h2><%= quote.author %></h2>
+  </div>
+<% end %>
